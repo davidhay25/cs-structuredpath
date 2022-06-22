@@ -1,0 +1,59 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.org.nz.ig.csstructuredpathology",
+  "url": "http://fhir.org.nz/ig/csstructuredpathology/ImplementationGuide/fhir.org.nz.ig.csstructuredpathology",
+  "version": "0.1.0",
+  "name": "StructuredPathology",
+  "status": "draft",
+  "publisher": "David Hay",
+  "contact": [
+    {
+      "name": "David Hay",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.org.nz.ig.csstructuredpathology",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "path-report.html",
+          "title": "Path Report",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminology.html",
+          "title": "Terminology",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
