@@ -11,7 +11,7 @@ Initially, it was envisaged that all the parts of this solution would be FHIR co
 
 ### Making the request
 >>> compliant with SDC
-
+ summary here with separate tab
 
 
 
@@ -25,3 +25,4 @@ There are 3 primary stages
 
 __Note that there is a separate path by which the report is transmtted to the requestor. This flow has
 a copy of the report__
+

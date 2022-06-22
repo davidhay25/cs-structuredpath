@@ -3,10 +3,5 @@
 <br/><strong>Profiles defined in this guide</strong><br/><br/>
 <table class='table table-bordered table-hover table-sm'>
 <tr><th>Id</th><th>Url</th><th>Description</th></tr>
-<tr>
-<td><a href='StructureDefinition-MyPatient.html'>MyPatient</a></td>
-<td>http://fhir.org.nz/ig/structuredpathology/StructureDefinition/MyPatient</td>
-<td><p>An example profile of the Patient resource.</p></td>
-</tr>
 </table>
 </div>
