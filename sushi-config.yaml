@@ -6,7 +6,7 @@
 id: fhir.org.nz.ig.csstructuredpathology
 canonical: http://fhir.org.nz/ig/csstructuredpathology
 name: StructuredPathology
-# title: Example Title
+title: CanShare Structured Pathology requests and reports
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0

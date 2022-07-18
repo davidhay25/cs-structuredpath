@@ -4,6 +4,7 @@
   "url": "http://fhir.org.nz/ig/csstructuredpathology/ImplementationGuide/fhir.org.nz.ig.csstructuredpathology",
   "version": "0.1.0",
   "name": "StructuredPathology",
+  "title": "CanShare Structured Pathology requests and reports",
   "status": "draft",
   "publisher": "David Hay",
   "contact": [
