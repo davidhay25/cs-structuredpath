@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Average_staining_intensity",
+  "id": "average-staining-intensity",
+  "title": "Average Staining Intensity",
+  "description": "Average Staining Intensity",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-staining-intensity",
+  "concept": [
+    {
+      "code": "weak",
+      "display": "weak",
+      "definition": "Weak"
+    },
+    {
+      "code": "moderate",
+      "display": "Moderate",
+      "definition": "Moderate"
+    },
+    {
+      "code": "strong",
+      "display": "Strong"
+    },
+    {
+      "code": "none",
+      "display": "No Staining"
+    }
+  ],
+  "count": 4
+}

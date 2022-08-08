@@ -74,7 +74,7 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "fixedCodeableConcept": {
+        "patternCodeableConcept": {
           "coding": [
             {
               "code": "1111",

@@ -2,12 +2,12 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "RegimenDiscontinuedPatientFactors",
-  "id": "regimen-discontinued-patient-factors",
-  "title": "Patient factors when discontinuing a regimen",
-  "description": "Patient factors when discontinuing a regimen",
+  "name": "EGFR_result",
+  "id": "egfr-result",
+  "title": "EGFR result",
+  "description": "EGFR result",
   "version": "0.1.0",
-  "url": "http://canshare.com/fhir/CodeSyatem/cs-egfr",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-egfr",
   "concept": [
     {
       "code": "present",

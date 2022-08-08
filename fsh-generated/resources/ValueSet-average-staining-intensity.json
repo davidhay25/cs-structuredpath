@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Average_staining_intensity",
+  "id": "average-staining-intensity",
+  "title": "Average Staining Intensity",
+  "description": "Possible values for Average Staining Intensity",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-staining-intensity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-staining-intensity"
+      }
+    ]
+  }
+}

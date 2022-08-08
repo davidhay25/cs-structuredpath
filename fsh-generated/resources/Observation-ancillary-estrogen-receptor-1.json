@@ -1,0 +1,65 @@
+{
+  "resourceType": "Observation",
+  "id": "ancillary-estrogen-receptor-1",
+  "meta": {
+    "profile": [
+      "http://canshare.com/fhir/StructureDefinition/estrogen-receptor"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "2222",
+        "system": "http://snomed.info/sct",
+        "display": "Estrogen receptor status"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "percent",
+            "system": "http://snomed.info/sct"
+          }
+        ]
+      },
+      "valueInteger": 50
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "stain",
+            "system": "http://snomed.info/sct"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "strong",
+            "system": "http://canshare.com/fhir/CodeSystem/cs-staining-intensity"
+          }
+        ]
+      }
+    }
+  ],
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Estrogen receptor example</div>",
+    "status": "generated"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/johndoe"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "positive",
+        "system": "http://canshare.com/fhir/CodeSystem/cs-estrogeb-receptor"
+      }
+    ]
+  }
+}

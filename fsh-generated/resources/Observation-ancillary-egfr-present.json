@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ancillary-egfr-not-performed",
+  "id": "ancillary-egfr-present",
   "meta": {
     "profile": [
       "http://canshare.com/fhir/StructureDefinition/observation-egfr"
@@ -16,24 +16,19 @@
     ]
   },
   "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">EGFR not performed</div>",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">EGFR present</div>",
     "status": "generated"
   },
   "status": "final",
   "subject": {
     "reference": "Patient/johndoe"
   },
-  "dataAbsentReason": {
+  "valueCodeableConcept": {
     "coding": [
       {
-        "code": "not-performed",
-        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+        "code": "present",
+        "system": "http://canshare.com/fhir/CodeSystem/cs-egfr"
       }
     ]
-  },
-  "note": [
-    {
-      "text": "Insufficent material"
-    }
-  ]
+  }
 }

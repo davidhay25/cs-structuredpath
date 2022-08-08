@@ -34,6 +34,22 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/observation-estrogen-receptor"
+        },
+        "name": "Estrogen Receptor result",
+        "description": "An observation that represents an Estrogen Receptor result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/average-staining-intensity"
+        },
+        "name": "Average Staining Intensity",
+        "description": "Possible values for Average Staining Intensity",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/egfr-result"
         },
         "name": "EGFR result",
@@ -42,10 +58,34 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/regimen-discontinued-patient-factors"
+          "reference": "ValueSet/estrogen-receptor-result"
         },
-        "name": "Patient factors when discontinuing a regimen",
-        "description": "Patient factors when discontinuing a regimen",
+        "name": "Estrogen Receptor result",
+        "description": "Possible values for Estrogen Receptor result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/average-staining-intensity"
+        },
+        "name": "Average Staining Intensity",
+        "description": "Average Staining Intensity",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/egfr-result"
+        },
+        "name": "EGFR result",
+        "description": "EGFR result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/estrogen-receptor-result"
+        },
+        "name": "Estrogen Receptor result",
+        "description": "Estrogen Receptor result",
         "exampleBoolean": false
       },
       {
@@ -54,6 +94,20 @@
         },
         "name": "EGFR not performed",
         "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/observation-egfr"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ancillary-egfr-present"
+        },
+        "name": "EGFR mutation present",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/observation-egfr"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ancillary-estrogen-receptor-1"
+        },
+        "name": "Estrogen receptor example",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/estrogen-receptor"
       },
       {
         "reference": {

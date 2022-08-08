@@ -18,7 +18,7 @@ Description:    "An observation that represents an EGFR (epidermal growth factor
 
 
 //fix the code value
-* code = $snomed#1111 (exactly)
+* code = $snomed#1111 
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 * valueCodeableConcept from $egfr-vs (required)
@@ -33,10 +33,10 @@ Description:  "Possible values for EGFR (epidermal growth factor receptor)"
 * codes from system $egfr-cs
 
 
-CodeSystem:  RegimenDiscontinuedPatientFactors
-Id: regimen-discontinued-patient-factors
-Title: "Patient factors when discontinuing a regimen"
-Description:  "Patient factors when discontinuing a regimen"
+CodeSystem:  EGFR_result
+Id: egfr-result
+Title: "EGFR result"
+Description:  "EGFR result"
 
 * ^url = $egfr-cs
 
@@ -74,3 +74,20 @@ Usage: #example
 * subject = Reference(johndoe)
 * code = $snomed#1111 "EGFR"
 * valueCodeableConcept = $egfr-cs#present
+
+/*
+//this should fail
+Instance: ancillary-egfr-fail
+InstanceOf: ObservationEGFR
+Title: "EGFR mutation present"
+Usage: #example
+
+* text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>EGFR present</div>"
+* text.status = #generated
+
+* status = #final
+* subject = Reference(johndoe)
+* code = $snomed#xxxx "EGFR"   //<--- wrong code
+* valueCodeableConcept = $egfr-cs#present
+
+*/

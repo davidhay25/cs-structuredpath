@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Estrogen_receptor_result",
+  "id": "estrogen-receptor-result",
+  "title": "Estrogen Receptor result",
+  "description": "Possible values for Estrogen Receptor result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-estrogen-receptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-estrogeb-receptor"
+      }
+    ]
+  }
+}

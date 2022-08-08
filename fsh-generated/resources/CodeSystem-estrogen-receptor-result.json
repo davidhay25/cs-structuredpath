@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Estrogen_receptor_result",
+  "id": "estrogen-receptor-result",
+  "title": "Estrogen Receptor result",
+  "description": "Estrogen Receptor result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-estrogeb-receptor",
+  "concept": [
+    {
+      "code": "positive",
+      "display": "Positive",
+      "definition": "Positive"
+    },
+    {
+      "code": "negative",
+      "display": "Negative",
+      "definition": "Negative"
+    }
+  ],
+  "count": 2
+}

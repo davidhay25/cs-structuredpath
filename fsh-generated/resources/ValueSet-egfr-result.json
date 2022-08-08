@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://canshare.com/fhir/CodeSyatem/cs-egfr"
+        "system": "http://canshare.com/fhir/CodeSystem/cs-egfr"
       }
     ]
   }
