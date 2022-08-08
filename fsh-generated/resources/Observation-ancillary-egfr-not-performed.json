@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "ancillary-egfr-not-performed",
+  "meta": {
+    "profile": [
+      "http://canshare.com/fhir/StructureDefinition/observation-egfr"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "1111",
+        "system": "http://snomed.info/sct",
+        "display": "EGFR"
+      }
+    ]
+  },
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">EGFR</div>",
+    "status": "generated"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/johndoe"
+  },
+  "dataAbsentReason": {
+    "coding": [
+      {
+        "code": "not-performed",
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+      }
+    ]
+  },
+  "note": [
+    {
+      "text": "Insufficent material"
+    }
+  ]
+}

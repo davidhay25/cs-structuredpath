@@ -1,0 +1,29 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "RegimenDiscontinuedPatientFactors",
+  "id": "regimen-discontinued-patient-factors",
+  "title": "Patient factors when discontinuing a regimen",
+  "description": "Patient factors when discontinuing a regimen",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSyatem/cs-egfr",
+  "concept": [
+    {
+      "code": "present",
+      "display": "Present",
+      "definition": "Mutation present"
+    },
+    {
+      "code": "absent",
+      "display": "Absent",
+      "definition": "Mutation absent"
+    },
+    {
+      "code": "indeterminate",
+      "display": "Indeterminate",
+      "definition": "Unable to determine"
+    }
+  ],
+  "count": 3
+}

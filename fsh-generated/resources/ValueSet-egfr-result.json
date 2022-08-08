@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EGFR_result",
+  "id": "egfr-result",
+  "title": "EGFR result",
+  "description": "Possible values for EGFR (epidermal growth factor receptor)",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-egfr",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSyatem/cs-egfr"
+      }
+    ]
+  }
+}

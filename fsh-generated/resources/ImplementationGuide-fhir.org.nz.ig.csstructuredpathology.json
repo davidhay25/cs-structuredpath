@@ -23,7 +23,46 @@
     "4.0.1"
   ],
   "definition": {
-    "resource": [],
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/observation-ecog"
+        },
+        "name": "ECOG score",
+        "description": "An observation that represents an EGFR (epidermal growth factor receptor) result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/egfr-result"
+        },
+        "name": "EGFR result",
+        "description": "Possible values for EGFR (epidermal growth factor receptor)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/regimen-discontinued-patient-factors"
+        },
+        "name": "Patient factors when discontinuing a regimen",
+        "description": "Patient factors when discontinuing a regimen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/ancillary-egfr-not-performed"
+        },
+        "name": "EGFR not performed",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/observation-egfr"
+      },
+      {
+        "reference": {
+          "reference": "Patient/johndoe"
+        },
+        "name": "John Doe",
+        "exampleBoolean": true
+      }
+    ],
     "page": {
       "nameUrl": "toc.html",
       "title": "Table of Contents",
