@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Progesterone_receptor_result",
+  "id": "progesterone-receptor-result",
+  "title": "Progesterone Receptor result",
+  "description": "Possible values for Progesterone Receptor result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-progesterone-receptor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-progesterone-receptor"
+      }
+    ]
+  }
+}

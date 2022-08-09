@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Reason_not_performed",
+  "id": "reason-not-performed",
+  "title": "Reason not performed",
+  "description": "The reason a test was not performed",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-reason-not-performed",
+  "concept": [
+    {
+      "code": "npf",
+      "display": "Not Publically Funded"
+    },
+    {
+      "code": "insuf",
+      "display": "Insufficents material"
+    },
+    {
+      "code": "fail",
+      "display": "Test failed"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    }
+  ],
+  "count": 4
+}

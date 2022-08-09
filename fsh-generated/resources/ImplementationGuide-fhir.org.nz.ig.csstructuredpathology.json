@@ -26,9 +26,9 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/observation-ecog"
+          "reference": "StructureDefinition/observation-egfr"
         },
-        "name": "ECOG score",
+        "name": "EGFR score",
         "description": "An observation that represents an EGFR (epidermal growth factor receptor) result",
         "exampleBoolean": false
       },
@@ -38,6 +38,30 @@
         },
         "name": "Estrogen Receptor result",
         "description": "An observation that represents an Estrogen Receptor result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/observation-fish"
+        },
+        "name": "FISH studies",
+        "description": "fluorescence in situ hybridisation (FISH) studies performed",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/observation-her2"
+        },
+        "name": "HER2 result",
+        "description": "An observation that represents a HER2 result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/observation-progesterone-receptor"
+        },
+        "name": "Progesterone Receptor result",
+        "description": "An observation that represents an Progesterone Receptor result",
         "exampleBoolean": false
       },
       {
@@ -66,6 +90,38 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/fish-result"
+        },
+        "name": "FISH result",
+        "description": "FISH result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/her2-result"
+        },
+        "name": "HER2 result",
+        "description": "HER2 result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/progesterone-receptor-result"
+        },
+        "name": "Progesterone Receptor result",
+        "description": "Possible values for Progesterone Receptor result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/reason-not-performed"
+        },
+        "name": "Reason not performed",
+        "description": "The reason a test was not performed",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/average-staining-intensity"
         },
         "name": "Average Staining Intensity",
@@ -90,6 +146,45 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/fish-result"
+        },
+        "name": "FISH result",
+        "description": "FISH result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/her2-result"
+        },
+        "name": "HER2 result",
+        "description": "HER2 result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/progesterone-receptor-result"
+        },
+        "name": "Progesterone Receptor result",
+        "description": "Progesterone Receptor result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/reason-not-performed"
+        },
+        "name": "Reason not performed",
+        "description": "The reason a test was not performed",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/ancillary-HER2-1"
+        },
+        "name": "HER2 report example",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/observation-her2"
+      },
+      {
+        "reference": {
           "reference": "Observation/ancillary-egfr-not-performed"
         },
         "name": "EGFR not performed",
@@ -111,6 +206,20 @@
       },
       {
         "reference": {
+          "reference": "Observation/ancillary-fish-1"
+        },
+        "name": "FISH report example",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/observation-fish"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ancillary-progesterone-receptor-1"
+        },
+        "name": "Progesterone receptor example",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/progesterone-receptor"
+      },
+      {
+        "reference": {
           "reference": "Patient/johndoe"
         },
         "name": "John Doe",
@@ -125,6 +234,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ancillaryStudies.html",
+          "title": "Ancillary Studies",
           "generation": "markdown"
         },
         {

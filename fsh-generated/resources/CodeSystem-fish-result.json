@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Fish_result",
+  "id": "fish-result",
+  "title": "FISH result",
+  "description": "FISH result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-fish",
+  "concept": [
+    {
+      "code": "borderline",
+      "display": "Borderline"
+    },
+    {
+      "code": "notamp",
+      "display": "HER2 FISH Not Amplified"
+    },
+    {
+      "code": "amp",
+      "display": "HER2 FISH Amplified"
+    }
+  ],
+  "count": 3
+}

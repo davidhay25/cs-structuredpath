@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Reason_not_performed",
+  "id": "reason-not-performed",
+  "title": "Reason not performed",
+  "description": "The reason a test was not performed",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-reason-not-performed",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-reason-not-performed"
+      }
+    ]
+  }
+}

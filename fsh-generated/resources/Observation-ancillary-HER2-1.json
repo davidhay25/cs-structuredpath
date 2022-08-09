@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "ancillary-HER2-1",
+  "meta": {
+    "profile": [
+      "http://canshare.com/fhir/StructureDefinition/observation-her2"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "5555",
+        "system": "http://snomed.info/sct",
+        "display": "HER2 study"
+      }
+    ]
+  },
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HER2 report example</div>",
+    "status": "generated"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/johndoe"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "ihc0",
+        "system": "http://canshare.com/fhir/CodeSystem/cs-her2"
+      }
+    ]
+  }
+}

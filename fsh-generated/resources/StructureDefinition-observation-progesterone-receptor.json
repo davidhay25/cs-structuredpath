@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "observation-estrogen-receptor",
+  "id": "observation-progesterone-receptor",
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Estrogen Receptor result</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Progesterone Receptor result</div>"
   },
   "extension": [
     {
@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://canshare.com/fhir/StructureDefinition/estrogen-receptor",
+  "url": "http://canshare.com/fhir/StructureDefinition/progesterone-receptor",
   "version": "0.1.0",
-  "name": "ObservationEstrogenReceptor",
-  "title": "Estrogen Receptor result",
+  "name": "ObservationProgesteroneReceptor",
+  "title": "Progesterone Receptor result",
   "status": "active",
-  "description": "An observation that represents an Estrogen Receptor result",
+  "description": "An observation that represents an Progesterone Receptor result",
   "jurisdiction": [
     {
       "coding": [
@@ -77,7 +77,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "2222",
+              "code": "3333",
               "system": "http://snomed.info/sct"
             }
           ]
@@ -124,7 +124,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "http://canshare.com/fhir/ValueSet/cs-estrogen-receptor"
+          "valueSet": "http://canshare.com/fhir/ValueSet/cs-progesterone-receptor"
         }
       },
       {

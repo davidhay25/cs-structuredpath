@@ -1,17 +1,17 @@
 {
   "resourceType": "Observation",
-  "id": "ancillary-estrogen-receptor-1",
+  "id": "ancillary-progesterone-receptor-1",
   "meta": {
     "profile": [
-      "http://canshare.com/fhir/StructureDefinition/estrogen-receptor"
+      "http://canshare.com/fhir/StructureDefinition/progesterone-receptor"
     ]
   },
   "code": {
     "coding": [
       {
-        "code": "2222",
+        "code": "3333",
         "system": "http://snomed.info/sct",
-        "display": "Estrogen receptor status"
+        "display": "Progesterone receptor status"
       }
     ]
   },
@@ -47,7 +47,7 @@
     }
   ],
   "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Estrogen receptor example</div>",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Progesterone receptor example</div>",
     "status": "generated"
   },
   "status": "final",
@@ -58,7 +58,7 @@
     "coding": [
       {
         "code": "positive",
-        "system": "http://canshare.com/fhir/CodeSystem/cs-estrogen-receptor"
+        "system": "http://canshare.com/fhir/CodeSystem/cs-progesterone-receptor"
       }
     ]
   }

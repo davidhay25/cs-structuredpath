@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "ancillary-fish-1",
+  "meta": {
+    "profile": [
+      "http://canshare.com/fhir/StructureDefinition/observation-fish"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "6666",
+        "system": "http://snomed.info/sct",
+        "display": "FISH study"
+      }
+    ]
+  },
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">FISH report example</div>",
+    "status": "generated"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/johndoe"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "amp",
+        "system": "http://canshare.com/fhir/CodeSystem/cs-fish"
+      }
+    ]
+  }
+}

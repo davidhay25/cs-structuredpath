@@ -1,10 +1,8 @@
-
-
 //profile for EGFR result
 Profile:        ObservationEGFR
 Parent:         Observation
-Id:             observation-ecog
-Title:          "ECOG score"
+Id:             observation-egfr
+Title:          "EGFR score"
 Description:    "An observation that represents an EGFR (epidermal growth factor receptor) result"
 
 * ^url = "http://canshare.com/fhir/StructureDefinition/observation-egfr"
@@ -13,6 +11,7 @@ Description:    "An observation that represents an EGFR (epidermal growth factor
 * ^text.status = #additional
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>EGFR result</div>"
 
+* ^keyword = $strucpath#ancillary
 //required and must support elements
 * subject 1..1 MS
 
@@ -43,8 +42,6 @@ Description:  "EGFR result"
 * #present "Present" "Mutation present"
 * #absent "Absent" "Mutation absent"
 * #indeterminate "Indeterminate" "Unable to determine"
-
-
 
 
 // ------------    examples

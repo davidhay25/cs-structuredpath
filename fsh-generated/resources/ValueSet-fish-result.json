@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Fish_result",
+  "id": "fish-result",
+  "title": "FISH result",
+  "description": "FISH result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-fish",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-fish"
+      }
+    ]
+  }
+}

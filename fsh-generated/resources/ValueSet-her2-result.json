@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Her2_result",
+  "id": "her2-result",
+  "title": "HER2 result",
+  "description": "HER2 result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/ValueSet/cs-her2",
+  "compose": {
+    "include": [
+      {
+        "system": "http://canshare.com/fhir/CodeSystem/cs-her2"
+      }
+    ]
+  }
+}

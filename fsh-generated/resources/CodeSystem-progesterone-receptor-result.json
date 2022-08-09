@@ -2,12 +2,12 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "Estrogen_receptor_result",
-  "id": "estrogen-receptor-result",
-  "title": "Estrogen Receptor result",
-  "description": "Estrogen Receptor result",
+  "name": "Progesterone_receptor_result",
+  "id": "progesterone-receptor-result",
+  "title": "Progesterone Receptor result",
+  "description": "Progesterone Receptor result",
   "version": "0.1.0",
-  "url": "http://canshare.com/fhir/CodeSystem/cs-estrogen-receptor",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-progesterone-receptor",
   "concept": [
     {
       "code": "positive",

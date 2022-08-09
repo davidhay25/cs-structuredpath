@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "observation-ecog",
+  "id": "observation-egfr",
   "text": {
     "status": "additional",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">EGFR result</div>"
@@ -18,7 +18,7 @@
   "url": "http://canshare.com/fhir/StructureDefinition/observation-egfr",
   "version": "0.1.0",
   "name": "ObservationEGFR",
-  "title": "ECOG score",
+  "title": "EGFR score",
   "status": "active",
   "description": "An observation that represents an EGFR (epidermal growth factor receptor) result",
   "jurisdiction": [
@@ -29,6 +29,12 @@
           "system": "urn:iso:std:iso:3166"
         }
       ]
+    }
+  ],
+  "keyword": [
+    {
+      "code": "ancillary",
+      "system": "http://canshare.com/strucpath"
     }
   ],
   "fhirVersion": "4.0.1",

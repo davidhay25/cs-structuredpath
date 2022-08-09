@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Her2_result",
+  "id": "her2-result",
+  "title": "HER2 result",
+  "description": "HER2 result",
+  "version": "0.1.0",
+  "url": "http://canshare.com/fhir/CodeSystem/cs-her2",
+  "concept": [
+    {
+      "code": "ihc0",
+      "display": "HER2 IHC 0: Negative"
+    },
+    {
+      "code": "ihc1",
+      "display": "HER2 IHC 1+: Negative"
+    },
+    {
+      "code": "ihc2",
+      "display": "HER2 IHC 2+: Equivocal"
+    },
+    {
+      "code": "ihc3",
+      "display": "HER2 IHC 3+"
+    },
+    {
+      "code": "positive",
+      "display": "Positive"
+    }
+  ],
+  "count": 5
+}

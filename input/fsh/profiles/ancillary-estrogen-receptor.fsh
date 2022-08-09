@@ -22,6 +22,8 @@ Description:    "An observation that represents an Estrogen Receptor result"
 
 * valueCodeableConcept from $er-vs (required)
 
+* dataAbsentReason from $reason-not-performed-vs
+
 //slice the Observation component
 // 2 components - % stained & average staining intensity
 
@@ -64,7 +66,7 @@ Description:  "Estrogen Receptor result"
 * #positive "Positive" "Positive"
 * #negative "Negative" "Negative"
 
-
+/*
 //Terminology - Average Staining Intensity
 ValueSet : Average_staining_intensity
 Id: average-staining-intensity
@@ -87,6 +89,8 @@ Description:  "Average Staining Intensity"
 * #strong "Strong"
 * #none "No Staining"
 
+*/
+
 
 //Examples
 Instance: ancillary-estrogen-receptor-1
@@ -104,7 +108,6 @@ Usage: #example
 
 * component[+].code = $snomed#percent  //percentage stained
 * component[=].valueInteger = 50            //50 % stained
-
 
 * component[+].code = $snomed#stain //average staining intensity
 * component[=].valueCodeableConcept = $si-cs#strong

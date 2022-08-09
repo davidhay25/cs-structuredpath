@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://canshare.com/fhir/CodeSystem/cs-estrogeb-receptor"
+        "system": "http://canshare.com/fhir/CodeSystem/cs-estrogen-receptor"
       }
     ]
   }
