@@ -1,0 +1,28 @@
+Profile:        CompositionTest
+Parent:         Composition
+Id:             composition-test
+Title:          "Composition-test"
+Description:    "Testing that we can use a composition to record a standard"
+
+
+* status = #preliminary
+* type.text = "Test"
+
+* section ^slicing.discriminator.type = #pattern
+* section ^slicing.discriminator.path = "code"
+* section ^slicing.rules = #open
+
+
+* section contains
+    ancillary 0..1 MS and
+    clinical 0..1 MS
+
+* section[ancillary].code = $strucpath#ancillary
+* section[ancillary].entry only Reference(ObservationEGFR or ObservationFISH)
+
+* section[clinical].code = $strucpath#clinical
+* section[clinical] contains
+    EGFR 1..1 
+
+* section[clinical][EGFR].entry only Reference(ObservationEGFR)
+

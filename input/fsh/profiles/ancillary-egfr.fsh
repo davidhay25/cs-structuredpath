@@ -14,7 +14,7 @@ Description:    "An observation that represents an EGFR (epidermal growth factor
 * ^keyword = $strucpath#ancillary
 //required and must support elements
 * subject 1..1 MS
-
+* dataAbsentReason 0..1 MS
 
 //fix the code value
 * code = $snomed#1111 

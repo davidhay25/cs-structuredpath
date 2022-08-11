@@ -12,6 +12,7 @@ Description:    "fluorescence in situ hybridisation (FISH) studies performed"
 
 //required and must support elements
 * subject 1..1 MS
+* dataAbsentReason 0..1 MS
 
 
 //fix the code value

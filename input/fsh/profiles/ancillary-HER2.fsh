@@ -12,7 +12,7 @@ Description:    "An observation that represents a HER2 result"
 
 //required and must support elements
 * subject 1..1 MS
-
+* dataAbsentReason 0..1 MS
 
 //fix the code value
 * code = $snomed#5555 
