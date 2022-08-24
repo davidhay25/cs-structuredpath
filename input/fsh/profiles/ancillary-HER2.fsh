@@ -15,7 +15,7 @@ Description:    "An observation that represents a HER2 result"
 * dataAbsentReason 0..1 MS
 
 //fix the code value
-* code = $snomed#5555 
+* code = $example#5555 
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 * valueCodeableConcept from $her2-vs (required)
@@ -54,5 +54,5 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#5555 "HER2 study"
+* code = $example#5555 "HER2 study"
 * valueCodeableConcept = $her2-cs#ihc0

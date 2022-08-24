@@ -10,7 +10,7 @@
     "coding": [
       {
         "code": "3333",
-        "system": "http://snomed.info/sct",
+        "system": "http://example.org",
         "display": "Progesterone receptor status"
       }
     ]
@@ -21,7 +21,7 @@
         "coding": [
           {
             "code": "percent",
-            "system": "http://snomed.info/sct"
+            "system": "http://example.org"
           }
         ]
       },
@@ -32,7 +32,7 @@
         "coding": [
           {
             "code": "stain",
-            "system": "http://snomed.info/sct"
+            "system": "http://example.org"
           }
         ]
       },

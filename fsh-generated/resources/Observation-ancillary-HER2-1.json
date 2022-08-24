@@ -10,7 +10,7 @@
     "coding": [
       {
         "code": "5555",
-        "system": "http://snomed.info/sct",
+        "system": "http://example.org",
         "display": "HER2 study"
       }
     ]

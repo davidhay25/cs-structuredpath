@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ancillary-estrogen-receptor-1",
+  "id": "AncillaryEstrogen1",
   "meta": {
     "profile": [
       "http://canshare.com/fhir/StructureDefinition/estrogen-receptor"
@@ -10,8 +10,7 @@
     "coding": [
       {
         "code": "2222",
-        "system": "http://example.org",
-        "display": "Estrogen receptor status"
+        "system": "http://example.org"
       }
     ]
   },
@@ -25,7 +24,7 @@
           }
         ]
       },
-      "valueInteger": 50
+      "valueInteger": 80
     },
     {
       "code": {
@@ -35,22 +34,11 @@
             "system": "http://example.org"
           }
         ]
-      },
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "strong",
-            "system": "http://canshare.com/fhir/CodeSystem/cs-staining-intensity"
-          }
-        ]
       }
     }
   ],
-  "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Estrogen receptor example</div>",
-    "status": "generated"
-  },
   "status": "final",
+  "effectiveDateTime": "2020-01-01",
   "subject": {
     "reference": "Patient/johndoe"
   },

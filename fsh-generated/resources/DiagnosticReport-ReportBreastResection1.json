@@ -1,0 +1,29 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "ReportBreastResection1",
+  "meta": {
+    "profile": [
+      "http://canshare.com/fhir/StructureDefinition/report-breast-resection"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "report-breast-resection",
+        "system": "http://example.org"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/johndoe"
+  },
+  "result": [
+    {
+      "reference": "Observation/AncillaryEstrogen1"
+    },
+    {
+      "reference": "Observation/ancillary-progesterone-receptor-1"
+    }
+  ]
+}

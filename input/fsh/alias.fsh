@@ -4,6 +4,8 @@ Alias: $loinc = http://loinc.org
 Alias: $actnow = http://actnow.org/
 Alias: $strucpath = http://canshare.com/strucpath
 
+Alias: $example = http://example.org
+
 //Valueset
 Alias: $egfr-vs = http://canshare.com/fhir/ValueSet/cs-egfr
 Alias: $er-vs = http://canshare.com/fhir/ValueSet/cs-estrogen-receptor

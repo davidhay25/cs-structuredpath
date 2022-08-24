@@ -17,7 +17,7 @@ Description:    "An observation that represents an Progesterone Receptor result"
 * dataAbsentReason 0..1 MS
 
 //fix the code value
-* code = $snomed#3333
+* code = $example#3333
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 
@@ -38,11 +38,11 @@ Description:    "An observation that represents an Progesterone Receptor result"
     percentStained 1..1 MS and
     avgStainingIntensity 1..1 MS
 
-* component[percentStained].code = $snomed#percent  
+* component[percentStained].code = $example#percent  
 * component[percentStained].value[x] only integer
 
 
-* component[avgStainingIntensity].code = $snomed#stain 
+* component[avgStainingIntensity].code = $example#stain 
 * component[avgStainingIntensity].value[x] only CodeableConcept
 * component[avgStainingIntensity].valueCodeableConcept from $si-vs (required)
 
@@ -83,11 +83,11 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#3333 "Progesterone receptor status"
+* code = $example#3333 "Progesterone receptor status"
 * valueCodeableConcept = $prog-cs#positive
 
-* component[+].code = $snomed#percent  //percentage stained
+* component[+].code = $example#percent  //percentage stained
 * component[=].valueInteger = 50            //50 % stained
 
-* component[+].code = $snomed#stain //average staining intensity
+* component[+].code = $example#stain //average staining intensity
 * component[=].valueCodeableConcept = $si-cs#strong

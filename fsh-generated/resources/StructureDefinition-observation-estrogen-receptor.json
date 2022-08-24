@@ -78,7 +78,7 @@
           "coding": [
             {
               "code": "2222",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -166,7 +166,7 @@
           "coding": [
             {
               "code": "percent",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -195,7 +195,7 @@
           "coding": [
             {
               "code": "stain",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }

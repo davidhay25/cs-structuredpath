@@ -16,7 +16,7 @@ Description:    "fluorescence in situ hybridisation (FISH) studies performed"
 
 
 //fix the code value
-* code = $snomed#6666
+* code = $example#6666
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 * valueCodeableConcept from $fish-vs (required)
@@ -53,5 +53,5 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#6666 "FISH study"
+* code = $example#6666 "FISH study"
 * valueCodeableConcept = $fish-cs#amp

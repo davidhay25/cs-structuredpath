@@ -84,7 +84,7 @@
           "coding": [
             {
               "code": "1111",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -132,6 +132,11 @@
           "strength": "required",
           "valueSet": "http://canshare.com/fhir/ValueSet/cs-egfr"
         }
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
       }
     ]
   }

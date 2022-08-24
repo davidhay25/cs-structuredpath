@@ -78,7 +78,7 @@
           "coding": [
             {
               "code": "5555",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -126,6 +126,11 @@
           "strength": "required",
           "valueSet": "http://canshare.com/fhir/ValueSet/cs-her2"
         }
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
       }
     ]
   }

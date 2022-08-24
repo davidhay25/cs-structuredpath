@@ -10,7 +10,7 @@
     "coding": [
       {
         "code": "6666",
-        "system": "http://snomed.info/sct",
+        "system": "http://example.org",
         "display": "FISH study"
       }
     ]

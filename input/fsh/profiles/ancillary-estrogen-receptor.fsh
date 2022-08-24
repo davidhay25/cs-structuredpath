@@ -16,7 +16,7 @@ Description:    "An observation that represents an Estrogen Receptor result"
 * subject 1..1 MS
 
 //fix the code value
-* code = $snomed#2222 
+* code = $example#2222 
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 
@@ -37,11 +37,11 @@ Description:    "An observation that represents an Estrogen Receptor result"
     percentStained 1..1 MS and
     avgStainingIntensity 1..1 MS
 
-* component[percentStained].code = $snomed#percent  
+* component[percentStained].code = $example#percent  
 * component[percentStained].value[x] only integer
 
 
-* component[avgStainingIntensity].code = $snomed#stain 
+* component[avgStainingIntensity].code = $example#stain 
 * component[avgStainingIntensity].value[x] only CodeableConcept
 * component[avgStainingIntensity].valueCodeableConcept from $si-vs (required)
 
@@ -103,11 +103,11 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#2222 "Estrogen receptor status"
+* code = $example#2222 "Estrogen receptor status"
 * valueCodeableConcept = $er-cs#positive
 
-* component[+].code = $snomed#percent  //percentage stained
+* component[+].code = $example#percent  //percentage stained
 * component[=].valueInteger = 50            //50 % stained
 
-* component[+].code = $snomed#stain //average staining intensity
+* component[+].code = $example#stain //average staining intensity
 * component[=].valueCodeableConcept = $si-cs#strong

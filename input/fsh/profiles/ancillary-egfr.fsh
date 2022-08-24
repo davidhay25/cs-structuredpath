@@ -17,7 +17,7 @@ Description:    "An observation that represents an EGFR (epidermal growth factor
 * dataAbsentReason 0..1 MS
 
 //fix the code value
-* code = $snomed#1111 
+* code = $example#1111 
 * effective[x] only dateTime
 * value[x] only CodeableConcept
 * valueCodeableConcept from $egfr-vs (required)
@@ -55,7 +55,7 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#1111 "EGFR"
+* code = $example#1111 "EGFR"
 * dataAbsentReason = $dar#not-performed
 * note.text = "Insufficent material"
 
@@ -69,7 +69,7 @@ Usage: #example
 
 * status = #final
 * subject = Reference(johndoe)
-* code = $snomed#1111 "EGFR"
+* code = $example#1111 "EGFR"
 * valueCodeableConcept = $egfr-cs#present
 
 /*

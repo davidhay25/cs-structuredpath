@@ -66,6 +66,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/report-breast-resection"
+        },
+        "name": "Breast resection report",
+        "description": "A profile on DiagnosticReport for breast resection reports",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/average-staining-intensity"
         },
         "name": "Average Staining Intensity",
@@ -175,6 +183,20 @@
         "name": "Reason not performed",
         "description": "The reason a test was not performed",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/AncillaryEstrogen1"
+        },
+        "name": "Ancillary estrogen result",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/estrogen-receptor"
+      },
+      {
+        "reference": {
+          "reference": "DiagnosticReport/ReportBreastResection1"
+        },
+        "name": "Breast resection",
+        "exampleCanonical": "http://canshare.com/fhir/StructureDefinition/report-breast-resection"
       },
       {
         "reference": {

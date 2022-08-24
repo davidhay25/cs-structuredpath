@@ -78,7 +78,7 @@
           "coding": [
             {
               "code": "3333",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -130,6 +130,7 @@
       {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://canshare.com/fhir/ValueSet/cs-reason-not-performed"
@@ -166,7 +167,7 @@
           "coding": [
             {
               "code": "percent",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
@@ -195,7 +196,7 @@
           "coding": [
             {
               "code": "stain",
-              "system": "http://snomed.info/sct"
+              "system": "http://example.org"
             }
           ]
         }
